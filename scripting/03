@@ -1,0 +1,8 @@
+#!/bin/sh
+
+print_date()
+{
+    echo "Today is `date +"%A %d %B %Y"`"
+    return
+}
+print_date
